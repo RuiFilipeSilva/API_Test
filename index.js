@@ -4,6 +4,7 @@ const port = 3030;
 const fs = require("fs");
 const util = require("util");
 const readFile = util.promisify(fs.readFile);
+const cors = require('cors');
 
 var allowlist = [
   "http://18.202.191.98",
